@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Portfolio | Afkar Dev</title>
+</head>
+
+<body class="bg-dark">
+  <div class=">container-fluid text-light" style="height: 100vh;">
+    <!-- nav section start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about/">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Others
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/service/">Service</a></li>
+                  <li><a class="dropdown-item" href="/contact/">Contact</a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- nav section end -->
+
+       <!-- first layout start -->
+      
+        <!-- carousel iamges -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner" >
+            <div class="carousel-item active" >
+              <img src="./assets/carousel1.jpg" class="d-block w-100" alt="..." style="height: 400px;">
+              <div class="carousel-caption">
+                <h5>✨ Web Design ✨</h5>
+                <p>Custom website design and Responsive web design.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/carousel2.jpg" class="d-block w-100" alt="..." style="height: 400px;">
+              <div class="carousel-caption">
+                <h5>✨ Digital Marketing ✨</h5>
+                <p>Create and distribute valuable and relevant content to attract and engage target audiences.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/carousel3.jpg" class="d-block w-100" alt="..." style="height: 400px;" >
+              <div class="carousel-caption">
+                <h5>✨ Graphic Design ✨</h5>
+                <p>Create logos and other visual elements that represent your brand identity.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/carousel4.jpg" class="d-block w-100" alt="..." style="height: 400px;" >
+              <div class="carousel-caption">
+                <h5>✨ E-commerce Solutions ✨</h5>
+                <p>There are several e-commerce solutions and services available, depending on the needs and scale of your business.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/carousel5.png" class="d-block w-100" alt="..." style="height: 400px;" >
+              <div class="carousel-caption">
+                <h5>✨ Photography & Videography ✨</h5>
+                <p>Building a successful photography and videography service requires dedication to quality.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/carousel6.jpg" class="d-block w-100" alt="..." style="height: 400px;" >
+              <div class="carousel-caption">
+                <h5>✨ Editing ✨</h5>
+                <p>You can build a successful editing service that meets the diverse needs of your clients.</p>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+       
+        <!-- end of carousel images -->
+        <div class="row text-center align-items-center mt-4">
+          <div class="col-12">
+            <img src="assets/pict1.jpeg" class="rounded-circle" width="150" height="150">
+            <h2 class="mt-2">✨Afkar Dev✨</h2>
+            <i>Hello there! I'm a Web Developer</i>
+          </div>
+          <div class="row text-dark mt-4">
+            <div class="col-sm-4 g-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Web Design</h5>
+                  <p class="card-text">Crafting captivating and responsive web designs to bring your vision online with visual excellence and optimal user experience.</p>
+                  <a href="contact/" class="btn btn-dark d-block">Contact now</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                  $15
+                </span>
+              </div>
+            </div>
+            <div class="col-sm-4 g-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Digital Marketing</h5>
+                  <p class="card-text">My services include creating blog posts, videos, and social media content that drives traffic and engagement.</p>
+                  <a href="service/" class="btn btn-dark d-block">See more details</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                  $13
+                </span>
+              </div>
+            </div>
+            <div class="col-sm-4 g-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Graphic Design</h5>
+                  <p class="card-text">With expertise in blending colors, typography, and visual design, I transform concepts into captivating works of art.</p>
+                  <a href="sosmed/" class="btn btn-dark d-block">Buy now</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                  $12
+                </span>
+              </div>
+            </div>
+            <div class="col-sm-4 g-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">E-commerce Solutions</h5>
+                  <p class="card-text">Building secure, scalable, and user-centric online stores that enhance the shopping experience and drive conversions.</p>
+                  <a href="contact/" class="btn btn-dark d-block">Contact now</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                  $16
+                </span>
+              </div>
+            </div>
+            <div class="col-sm-4 g-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Photography & Videography</h5>
+                  <p class="card-text">With expertise in both photography and videography, i capture special moments with deep visual beauty, crafting unforgettable stories.</p>
+                  <a href="service/" class="btn btn-dark d-block">See more details</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                  $14
+                </span>
+              </div>
+            </div>
+            <div class="col-sm-4 g-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Editing</h5>
+                  <p class="card-text">With editing expertise, I transform images and videos into captivating art with precision and attention to detail.</p>
+                  <a href="sosmed/" class="btn btn-dark d-block">Buy now</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                  $13
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid text-dark mt-4">
+          <div class="row justify-content-center">
+            <div class="card m-3" style="max-width: 500px;cursor: pointer;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/service1.jpg" class="img-fluid" alt="..." style="height: 100%;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Design</h5>
+                    <p class="card-text">If you need specific recommendations or are looking for a service provider, I can help with that too. Just let me know your requirements!</p>
+                    <i class="card-text"><small class="text-muted">Last updated 3 mins ago</small></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card m-3" style="max-width: 500px;cursor: pointer;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/service2.jpg" class="img-fluid" alt="..." style="height: 100%;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">These services can be tailored to fit the specific needs and goals of a business, helping to increase online visibility, engage with customers, and drive sales.</p>
+                    <i class="card-text"><small class="text-muted">Last updated 3 mins ago</small></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card m-3" style="max-width: 500px;cursor: pointer;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/service3.jpg" class="img-fluid" alt="..." style="height: 100%;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Graphic Design</h5>
+                    <p class="card-text">If you need specific graphic design services or would like more information, let me know!</p>
+                    <i class="card-text"><small class="text-muted">Last updated 3 mins ago</small></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card m-3" style="max-width: 500px;cursor: pointer;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/service4.jpg" class="img-fluid" alt="..." style="height: 100%;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">E-commerce Solutions</h5>
+                    <p class="card-text">Each solution has its pros and cons, so it’s important to evaluate them based on your specific business needs.</p>
+                    <i class="card-text"><small class="text-muted">Last updated 3 mins ago</small></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card m-3" style="max-width: 500px;cursor: pointer;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/service5.jpg" class="img-fluid" alt="..." style="height: 100%;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Photography & Videography</h5>
+                    <p class="card-text">Building a successful photography and videography service requires dedication to quality, continuous learning, and excellent customer relationships.</p>
+                    <i class="card-text"><small class="text-muted">Last updated 3 mins ago</small></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card m-3" style="max-width: 500px;cursor: pointer;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/service6.jpg" class="img-fluid" alt="..." style="height: 100%;">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Editing</h5>
+                    <p class="card-text">By focusing on quality, clear communication, and reliability, you can build a successful editing service that meets the diverse needs of your clients.</p>
+                    <i class="card-text"><small class="text-muted">Last updated 3 mins ago</small></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class=">container-fluid bg-dark text-light mt-4 text-center" style="height: 35vh">
+            <h2 class="mt-2">Let's Talk With Me!</h2>
+              <i>Feel free to reach out and discuss potential collaborations through my personal portfolio website.</i>
+            <div class="text-center mt-3">
+              <a href="https://www.instagram.com/afkarr.n__?igsh=MXZrenhxdWk4ZDdidQ=="><img src="/assets/ig.jpeg" class="rounded-circle" alt="..." style="max-width: 50px;">
+              </a>
+              <a href="https://wa.me/6281953786606"><img src="/assets/wa.jpeg" class="rounded-circle" alt="..." style="max-width: 50px;">
+              </a>
+              <a href="https://t.me/claybon"><img src="/assets/tele.jpeg" class="rounded-circle" alt="..." style="max-width: 50px;">
+              </a>
+            </div>
+           </div>
+           <footer style="text-align: center;">Copyright © 2024 Afkar Dev All rights reserved.</footer>
+        <!-- first layout end-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
